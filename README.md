@@ -155,8 +155,8 @@ Dense(1) + Sigmoid
 | Algorithm | Test Accuracy | Validation Accuracy (Best Found) | Training Time (seconds) | Notes |
 |-----------|---------------|----------------------------------|-------------------------|-------|
 | **Base Model** | 75.55% | 78.49% | 543.04 | Baseline without optimization |
-| **Firefly Algorithm (FF)** | 83.83% | ~82.69% | - | Continuous optimization |
-| **Whale Optimization (WOA)** | 80.75% | ~82.39% | - | Spiral updating mechanism |
+| **Firefly Algorithm (FF)** | 83.83% | ~82.69% | 3328 | Continuous optimization |
+| **Whale Optimization (WOA)** | 80.75% | ~82.39% | 2185 | Spiral updating mechanism |
 | **Ant Colony Optimization (ACO)** | 87.15% | ~79.98% | 26,709.78 | Pheromone-based search |
 | **Particle Swarm Optimization (PSO)** | 87.10% | ~81.25% | 15,243.95 | Swarm intelligence |
 | **Simulated Annealing (SA)** | 88.95% | ~80.03% | 29,169.21 | Temperature-based acceptance |
